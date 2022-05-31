@@ -1,6 +1,6 @@
-package cool.yunlong.shop.service;
+package cool.yunlong.shop.user.service;
 
-import bean.User;
+import cool.yunlong.shop.bean.User;
 
 /**
  * 用户业务接口

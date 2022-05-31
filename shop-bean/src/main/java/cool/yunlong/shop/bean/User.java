@@ -1,6 +1,9 @@
-package bean;
+package cool.yunlong.shop.bean;
 
-import com.baomidou.mybatisplus.annotation.*;
+import com.baomidou.mybatisplus.annotation.IdType;
+import com.baomidou.mybatisplus.annotation.TableField;
+import com.baomidou.mybatisplus.annotation.TableId;
+import com.baomidou.mybatisplus.annotation.TableName;
 import cool.yunlong.shop.utils.id.SnowFlakeFactory;
 import cool.yunlong.shop.utils.pswd.PasswordUtils;
 import lombok.Data;
@@ -23,7 +26,6 @@ public class User implements Serializable {
      * 数据id
      */
     @TableId(value = "id", type = IdType.INPUT)
-    @TableField(value = "id", fill = FieldFill.INSERT)
     private Long id;
 
     /**

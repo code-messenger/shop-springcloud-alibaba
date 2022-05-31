@@ -1,8 +1,8 @@
-package cool.yunlong.shop.service.impl;
+package cool.yunlong.shop.user.service.impl;
 
-import bean.User;
-import cool.yunlong.shop.mapper.UserMapper;
-import cool.yunlong.shop.service.UserService;
+import cool.yunlong.shop.bean.User;
+import cool.yunlong.shop.user.mapper.UserMapper;
+import cool.yunlong.shop.user.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

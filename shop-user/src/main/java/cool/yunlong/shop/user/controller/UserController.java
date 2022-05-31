@@ -1,8 +1,8 @@
-package cool.yunlong.shop.controller;
+package cool.yunlong.shop.user.controller;
 
-import bean.User;
 import com.alibaba.fastjson.JSONObject;
-import cool.yunlong.shop.service.UserService;
+import cool.yunlong.shop.bean.User;
+import cool.yunlong.shop.user.service.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -23,8 +23,8 @@ public class UserController {
     private UserService userService;
 
     @GetMapping(value = "/get/{userId}")
-    public User getUser(@PathVariable("userId") Long uid) {
-        User user = userService.getUserById(uid);
+    public User getUser(@PathVariable("userId") Long userId) {
+        User user = userService.getUserById(userId);
         log.info("获取到的用户信息为：{}", JSONObject.toJSONString(user));
         return user;
     }

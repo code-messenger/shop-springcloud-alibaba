@@ -6,6 +6,10 @@
     <packaging>pom</packaging>
     <modules>
         <module>shop-utils</module>
+        <module>shop-bean</module>
+        <module>shop-user</module>
+        <module>shop-product</module>
+        <module>shop-order</module>
     </modules>
 
     <parent>
@@ -13,7 +17,6 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.2.6.RELEASE</version>
     </parent>
-
 
     <groupId>cool.yunlong.shop</groupId>
     <artifactId>shop-springcloud-alibaba</artifactId>
@@ -25,9 +28,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <spring-cloud-alibaba.version>2.1.0.RELEASE</spring-cloud-alibaba.version>
+        <spring.boot.version>2.2.6.RELEASE</spring.boot.version>
         <logback.version>1.1.7</logback.version>
         <slf4j.version>1.7.21</slf4j.version>
-        <common.logging>1.2</common.logging>
+        <common.logging.version>1.2</common.logging.version>
         <fastjson.version>1.2.51</fastjson.version>
         <mybatis.version>3.4.6</mybatis.version>
         <mybatis.plus.version>3.4.1</mybatis.plus.version>

@@ -1,7 +1,7 @@
-package cool.yunlong.shop.mapper;
+package cool.yunlong.shop.user.mapper;
 
-import bean.User;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import cool.yunlong.shop.bean.User;
 import org.apache.ibatis.annotations.Mapper;
 
 /**

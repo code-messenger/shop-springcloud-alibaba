@@ -1,4 +1,4 @@
-package bean;
+package cool.yunlong.shop.bean;
 
 import com.baomidou.mybatisplus.annotation.*;
 import cool.yunlong.shop.utils.id.SnowFlakeFactory;

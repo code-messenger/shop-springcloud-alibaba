@@ -1,9 +1,14 @@
-package params;
+package cool.yunlong.shop.params;
+
+import lombok.Data;
 
 /**
+ * 订单参数
+ *
  * @author yunlong
  * @since 2022/4/22 11:03
  */
+@Data
 public class OrderParams {
 
     /**

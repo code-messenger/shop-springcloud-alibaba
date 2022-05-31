@@ -1,4 +1,4 @@
-package cool.yunlong.shop;
+package cool.yunlong.shop.user;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
