@@ -5,13 +5,15 @@ import cool.yunlong.shop.utils.resp.Result;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 /**
- * 全局异常处理类
+ * 全局异常处理器
  *
  * @author yunlong
  * @since 2022/4/22 8:51
  */
+@RestControllerAdvice
 public class RestCtrlExceptionHandler {
 
     private final Logger logger = LoggerFactory.getLogger(RestCtrlExceptionHandler.class);
